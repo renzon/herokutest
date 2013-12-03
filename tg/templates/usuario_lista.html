@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+     <h1>Lista de Usuários</h1>
+     <a href="/usuario/form">Adicionar Usuário</a>
+     <ol>
+         {% for us in usuarios %}
+             <li><strong>Nome: </strong>{{ us.nome }}<strong> Telefone: </strong>{{ us.telefone }}</li>
+        {% endfor %}
+    </ol>
+
+</body>
+</html>

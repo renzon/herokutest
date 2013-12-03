@@ -5,6 +5,6 @@ from django.db.models.base import Model
 
 
 class Usuario(Model):
-    nome = models.CharField()
-    telefone = models.CharField()
+    nome = models.CharField(max_length=200)
+    telefone = models.CharField(max_length=200)
 

@@ -1,4 +1,4 @@
-*.py[cod]
+dea *.py[cod]
 
 # C extensions
 *.so
@@ -36,3 +36,4 @@ nosetests.xml
 .project
 .pydevproject
 .idea
+venv/
